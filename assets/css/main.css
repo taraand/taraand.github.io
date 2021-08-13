@@ -6,6 +6,75 @@ body {
 
 
 a {
-	color:red;
+	color:coral;
 }
 
+
+div.name {
+	color:tomato;
+	font-size:200px;
+	text-align:center;
+	text-transform:none;
+	text-decoration:underline wavy;
+	text-decoration-thickness:6px;
+	text-underline-offset:10px;
+}
+
+div.Child{
+vertical-align:text-bottom;
+scroll-top:20px;
+margin-left:450px;
+position: absolute;
+z-index: index -1;
+}
+
+div.Project1 {
+color: darkmagenta;
+width:250px;
+height:200px;
+background-color:tomato;
+display:inline-block;
+padding-left:30px;
+padding-top:65px;
+margin-left:400px;
+margin-top:500px;
+position: absolute;
+}
+
+div.Project2{
+color-adjust: tomato;
+width:250px;
+height:200px;
+background-color: darkmagenta;
+display:inline-block;
+padding-left:70px;
+padding-top:65px;
+margin-left:800px;
+margin-top: 500px;
+vertical-align: text-top;
+position: absolute;
+z-index: -1;
+}
+
+div.Letter{
+font-size: 50px;
+margin-left: 80px;
+margin-top: -110px;
+position: absolute;
+}
+
+div.Letter2{
+font-size: 50px;
+margin-left: 1310px;
+margin-top: -110px;
+position: absolute;
+}
+
+
+
+div.Libra{
+font-size: 100px;
+margin-left: 470px;
+margin-top: 375px;
+position: absolute;
+}
