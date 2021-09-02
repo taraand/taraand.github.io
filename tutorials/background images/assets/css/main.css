@@ -1,0 +1,23 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-image: url("background/circles.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+a {
+	color:red;
+}
+
+.quote{
+	background-color: crimson;
+	width: 500px;
+	padding: 20px;
+	background: linear-gradient(180deg, rgba(255,197,0,1) 0%, rgba(72,72,182,1) 55%, rgba(0,212,255,1) 100%);
+	color:white;
+	background-image: url("background/circles.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}

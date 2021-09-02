@@ -1,0 +1,44 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.circle{
+	width: 200px;
+	height: 200px;
+	background-color: aquamarine;
+	border-radius: 100%;
+
+}
+
+.curve{
+	width: 300px;
+	height: 300px;
+	background-color:blueviolet;
+	border-radius: 20px;
+
+}
+
+.box{
+	width: 400px;
+	height: 400px;
+	background-color: chartreuse;
+
+}
+
+.oval{
+	width: 100vw;
+	height: 200px;
+	background-color: darkgoldenrod;
+	border-radius: 100%;
+}
+
+.rect{
+	width: 600px;
+	height: 300px;
+	background-color: darkseagreen;
+}

@@ -1,0 +1,29 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+@font-face{
+	font-family:'Grotesk';
+	src:url('fonts/Grotesk.otf');
+
+
+}
+
+a {
+	color:red;
+}
+
+div.title{
+	font-size: 300px;
+	text-align: center;
+	font-family: 'Grotesk';
+
+}
+
+div.number{
+	text-align: center;
+	font-size: 100px;
+	font-family:'Grotesk';
+
+}
