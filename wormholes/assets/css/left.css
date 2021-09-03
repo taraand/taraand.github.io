@@ -1,6 +1,10 @@
 
 body {
-background-image: url('Pondbackground.jpg');
+background-image: url("PondBackgroundreduced.jpg");
+background-position: top center;
+background-size: 100vw ;
+background-attachment: cover;
+
 }
 
 a {
@@ -9,6 +13,7 @@ a {
 
 .pond{
 	position: absolute;
+	color: white;
 	width: 100vw;
 	font-size: 110px;
 	top: 0%;
@@ -18,3 +23,5 @@ a {
 	line-height: 100vh;
 	font-family: 'monotalic';
 }
+
+
