@@ -24,6 +24,7 @@ a:hover {
     text-decoration: none;
     padding: 1%;
     z-index: 6;
+    font-style: italic;
 }
 
 .inverse:hover {

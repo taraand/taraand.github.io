@@ -1,0 +1,286 @@
+body {
+    background-color: #D37C5F;
+}
+
+img {
+    width: 80%;
+    border-radius: 50%;
+    align-content: center;
+}
+
+h1 {
+    font-size: 3.5vw;
+    font-family: 'monotalic';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.inverse {
+    display: inline-block;
+    background-color: black;
+    border-radius: 9px/8px;
+    border-width: 10px;
+    color:#D37C5F ;
+    text-decoration: none;
+    padding: 1%;
+    z-index: 6;
+}
+
+.inverse:hover {
+    background-color:#D37C5F ;
+    color: white;
+    cursor: pointer;
+}
+
+
+h2 {
+    position: relative;
+    font-size: 32px;
+    font-family: 'monotalic';
+    padding-right: 4%;
+    padding-bottom: 5%;
+    line-height: 104%;
+
+}
+
+h3 {
+    font-size: 16px;
+    font-family: 'hero-new', sans-serif;
+    font-weight: 400;
+    z-index: 2;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'hero-new', sans-serif;
+    font-weight: 400;
+    z-index: 2;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+h5 {
+    font-size: 20px;
+    font-family: 'hero-new', sans-serif;
+    font-weight: 400;
+    z-index: 2;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 9%;
+}
+.drought {
+    background-color: black;
+    color: #D37C5F;
+    border-radius: 9px/8px;
+    margin-bottom: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.drought:hover {
+    color: white;
+    background-color: #D37C5F;
+}
+
+
+.italictext {
+    font-style: italic; 
+}
+
+
+p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.text1 {
+    padding-top: 185%;
+    padding-left: 1vw;
+    padding-bottom: 3%;
+}
+
+.text2 {
+    padding-left: 3vw;
+    padding-bottom: 3%;
+}
+
+.text3 {
+    padding-left: 4vw;
+    padding-bottom: 3%;
+}
+
+.text4 {
+   padding-left: 0.5vw;
+   margin-bottom: 3%;
+}
+
+.lawnshame:hover {
+    color: white
+
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    width: 90vw;
+    background-color:#D37C5F;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.small {
+   position: relative;
+    height: 100%;
+    width: 14.2857%;
+    border: 1px solid black;
+}
+
+.moss img {
+    width: 100%;
+    align-items: baseline;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+.half {
+    background-color: chartreuse;
+    height: 100%;
+    width: auto;
+    border: 1px solid black;
+}
+
+.food {
+margin-bottom: 10%;
+margin-top: 120%;
+}
+
+.food img {
+    position: relative;
+    margin-left: 10%;
+    cursor: pointer ;
+}
+
+.food img:hover {
+    filter: invert(100%);
+}
+
+.carrots img {
+    position: relative;
+    margin-left: 10%;
+
+}
+
+.koi img {
+    position: relative;
+    margin-left: 10%;
+    cursor: pointer ;
+
+}
+
+.koi img:hover{
+    filter: invert(100%);
+    position: relative;
+}
+
+.fern img {
+    position: relative;
+    margin-top: 120%;
+    margin-left: 10%;
+    z-index: 3;
+}
+
+.fern img:hover {
+    filter: invert(100%);
+    position: relative;
+}
+
+.koipond img {
+    position: relative;
+    width: 100%;
+    border-radius: 0%;
+}
+
+.koipond img:hover {
+    filter: invert(100%);
+}
+
+.mower img {
+    position: relative;
+    width: 100%;
+    border-radius: 0%;
+    padding-bottom: 8%;
+
+}
+
+.mower img:hover{
+    filter: invert(100%);
+}
+
+.waterfall img {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.waterfall img:hover {
+    filter: invert(100%);
+    position: relative;
+    z-index: 3;
+}
+
+.moss img {
+    width: 100%;
+    border-radius: 0%;
+}
+
+.moss img:hover{
+    filter: invert(100%);
+}
+
+.follow {
+    margin-top: 120%;
+    margin-left: 5%;
+    padding: 3%;
+    line-height: 120%;
+    font-size: 16px;
+    font-family: 'hero-new', sans-serif;
+    font-weight: 600;
+    z-index: 0;
+}
+
+
+
+.large {
+   position: relative;s
+    height: 100%;
+    width: 42.8571%;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    z-index: 100;
+}
+
+.grow {
+    padding: 5%;
+}
+
+.smallclear {
+    background-color: transparent;
+    position: relative;
+    height: 100%;
+    width: 14.2857%;
+    border: 1px solid black;
+}
