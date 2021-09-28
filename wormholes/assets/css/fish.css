@@ -1,0 +1,12 @@
+body {
+    background-color: #80A19B;
+    background-image: url("fishgeeks.png");
+    background-repeat:repeat;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+}

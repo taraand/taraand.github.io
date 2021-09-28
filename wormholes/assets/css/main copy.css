@@ -1,0 +1,67 @@
+
+
+@font-face {
+	font-family:'silkamono';
+	src: url('Fonts/SilkaMono-Regular.otf');
+}
+
+@font-face {
+	font-family: 'futurablack';
+	src: url('fonts/FuturaBlack.ttf');
+}
+
+@font-face {
+	font-family: 'gilroy';
+	src: url('Fonts/Gilroy-ExtraBold.otf');
+}
+
+@font-face {
+	font-family: 'frequenz';
+	src: url('Fonts/FrequenzTrial-MediumItalic.ttf');
+}
+
+@font-face {
+	font-family: 'bagnard';
+	src: url(Fonts/Bagnard.otf);
+}
+
+@font-face {
+	font-family: 'blackout';
+	src: url(Fonts/Blackout.ttf);
+}
+
+@font-face {
+	font-family: 'grotesk';
+	src: url(Fonts/Grotesk.otf);
+}
+
+@font-face {
+	font-family: 'sequenz';
+	src: url(Fonts/Sequenz.ttf);
+}
+
+@font-face {
+	font-family: 'ITC';
+	src: url(Fonts/ITC.ttf);
+}
+
+@font-face {
+	font-family: 'oldschool';
+	src: url(Fonts/Oldschool.ttf);
+}
+
+@font-face {
+	font-family: 'queens';
+	src: url(Fonts/Queens.ttf);
+}
+
+img {
+	width: 100vw;
+	height: auto;
+}
+
+
+
+
+
+

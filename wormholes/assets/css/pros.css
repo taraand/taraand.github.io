@@ -1,0 +1,120 @@
+body {
+    background-color: #80A19B;
+}
+
+img {
+    width: 100%;
+    align-content: center;
+    cursor: crosshair;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    width: 90vw;
+    background-color:#80A19B;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: scroll;
+}
+
+.row1 {
+    flex-wrap: wrap;
+    height: 60%;
+    width: 100%;
+}
+
+.aga {
+    margin: 2%;
+    border-radius: 9px/8px;
+    overflow: hidden;
+}
+
+.aga img {
+    max-width: 100%;
+    border-radius: 9px/8px;
+    margin-bottom: -12.5%;
+}
+
+.judge {
+    position: relative;
+    font-size: 24px;
+    font-family: 'hero-new', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 9px/8px;
+    background-color: black;
+    padding: 1%;
+    color: #80A19B;
+    line-height: 115%;
+   
+}
+
+.row2 {
+    flex-wrap: wrap;
+    height: 25%;
+    width: 100%;
+}
+
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 15%;
+    width: 100%;
+}
+
+.rows{
+    flex: auto;
+    width: 50%;
+}
+
+.sponsored {
+    display: inline-block;
+    background-color: black;
+    color: #80A19B;
+    margin-left: 4%;
+    font-size: 24px;
+    font-family: 'hero-new', sans-serif;
+    padding: 2%;
+    border-radius: 9px/8px;
+    font-style: italic;
+
+
+}
+
+.sponsored:hover {
+    color: white;
+    background-color: #80A19B;
+    font-weight: bolder;
+}
+
+.browse:hover {
+    color: white;
+    background-color: #80A19B;
+    font-weight: bolder;
+}
+
+
+.browse {
+    display: inline-block;
+    background-color: black;
+    color: #80A19B;
+    font-size: 24px;
+    font-family: 'hero-new', sans-serif;
+    padding: 2%;
+    border-radius: 9px/8px;
+    margin-left: 55.5%;
+    font-style: italic;
+
+}

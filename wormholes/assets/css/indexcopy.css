@@ -1,0 +1,240 @@
+body {
+    font-weight: inherit;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+    
+}
+
+a { 
+    color: inherit;
+    text-decoration: none; 
+    font-weight: inherit;
+    cursor: pointer;
+} 
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: stretch;
+    justify-content: center;
+    height: 80vh;
+    width: 90vw;
+    background-color:#7C8DAA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: scroll;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.gardenyellow {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    color: white;
+    background-color: black;
+    font-family: 'monotalic';
+    font-weight: 500;
+    font-size: 7vw;
+    text-align: center;
+    background-image: url("garden1.jpg");
+    background-blend-mode:lighten;
+    background-size: cover;
+    line-height: 50vh;
+}
+
+.gardenyellow:hover {
+    color: #80A19B; 
+    background-color: white;
+}
+
+.gardenpath {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background-color: black;
+    font-family: 'source-code-pro';
+    font-size: 7vw;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url("garden2.jpg");
+    background-blend-mode:lighten;
+    background-size: cover;
+    line-height: 50vh;
+    
+}
+
+.gardenpath:hover {
+    color: #D37C5F;
+    background-color: white;
+}
+
+.gardenflowers {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background-color: black;
+    font-family: 'gilroy';
+    font-size: 7vw;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url("garden3.jpg");
+    background-blend-mode:lighten;
+    background-size: cover;
+    line-height: 50vh;
+
+}
+
+.gardenflowers:hover {
+    color: #7C8DAA;
+    background-color: white;
+}
+
+
+.gardenmint {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background-color: black;
+    font-family: 'futurablack';
+    font-size: 7vw;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url("garden4.jpg");
+    background-blend-mode:lighten;
+    background-size: cover;
+    line-height: 50vh;
+
+}
+
+.gardenmint:hover {
+   color: #80A19B; 
+   background-color: white;
+}
+
+.gardenpool {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background-color: black;
+    font-family: 'blackout';
+    font-size: 7vw;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url("garden5.jpg");
+    background-blend-mode:lighten;
+    background-size: cover;
+    line-height: 50vh;
+}
+
+.gardenpool:hover {
+   color: #D37C5F; 
+   background-color: white;
+}
+
+.gardenfountain {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background-color: black;
+    font-family: 'roboto', sans-serif;
+    font-size: 7vw;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url("garden6.jpg");
+    background-blend-mode:lighten;
+    background-size: cover;
+    line-height: 50vh;
+
+}
+
+.gardenfountain:hover {
+  color: #7C8DAA;
+  background-color: white;
+}
+
+.gardenjungle {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background-color: black;
+    font-family: 'bely-display', sans-serif;
+    font-size: 7vw;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url("garden7.jpg");
+    background-blend-mode:lighten;
+    background-size: cover;
+    line-height: 50vh;
+
+}
+
+.gardenjungle:hover {
+  color: #80A19B; 
+  background-color: white;
+}
+
+.gardenpink {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background-color: black;
+    font-family: 'queens';
+    font-size: 9vw;
+    text-align: center;
+    background-image: url("garden8.jpg");
+    background-blend-mode:lighten;
+    background-size: cover;
+    line-height: 50vh;
+
+}
+
+.gardenpink:hover {
+  color:#D37C5F;
+  background-color: white;
+}
+
+@font-face {
+	font-family: 'gilroy';
+	src: url('Fonts/Gilroy-ExtraBold.otf');
+}
+
+@font-face {
+	font-family: 'frequenz';
+	src: url('Fonts/FrequenzTrial-MediumItalic.ttf');
+}
+
+@font-face {
+	font-family: 'blackout';
+	src: url(Fonts/Blackout.ttf);
+}
+
+@font-face {
+	font-family: 'queens';
+	src: url(Fonts/Queens.ttf);
+}
+
+@font-face {
+	font-family: 'futurablack';
+	src: url('fonts/FuturaBlack.ttf');
+}
+

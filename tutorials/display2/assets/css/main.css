@@ -1,0 +1,44 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.nav {
+	width: 100%;
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+
+}
+
+
+.text {
+	font-size: 60px;
+	margin-bottom: 20vh;
+}
+
+.start {
+	margin-top: 80px;
+
+}
+
+
+.popup{
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 400px;
+	right: 200px;
+	padding: 20px;
+
+
+}

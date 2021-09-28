@@ -1,0 +1,59 @@
+body {
+    background-color: #7C8DAA;
+    background-image: url("sky.gif");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    align-content: center;
+    
+}
+
+a:link { text-decoration: none; }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    width: 90vw;
+    background-color:#7C8DAA;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: scroll;
+    background-image: url("egypt.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.yes {
+    position: inline;
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    line-height: 8vh;
+    color: #7C8DAA;
+    font-family: 'monotalic';
+    font-size: 2.4vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.no {
+    margin-top: 55vh;
+    display: inline-block;
+    width: 100%;
+    font-family: 'hero-new', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.no:hover {
+    font-weight: bolder;
+}

@@ -1,0 +1,110 @@
+body {
+	font-family: serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.orange {
+	color: orange;
+}
+
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 20%;
+
+}
+
+div.button {
+	border-left: 1px solid black;
+	padding: 10px;
+	width: 25%;
+
+
+}
+
+div.main.sans {
+
+}
+
+div.main.day {
+	background-color: beige;
+	color: red;
+}
+
+div.main.night {
+	background-color: black;
+	color: white;
+}
+
+div.button:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+
+.main {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.title {
+	font-size: 7vw;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.endmatter {
+	font-size: 16px;
+}
+
+.content {
+	margin-top: 400px;
+}
+
+.content p.noindent {
+	text-indent: 0%;
+}
+
+.content p {
+	text-indent: 300px;
+}
+
+.content img {
+	display: block;
+	width: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.content img.large {
+	width: 100%;
+	transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.content p.caption {
+	font-size: 16px;
+	margin-bottom: 50px;
+	text-indent: 0%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+.bio {
+	font-size: 16px;
+	margin-bottom: 400px;
+}
+
