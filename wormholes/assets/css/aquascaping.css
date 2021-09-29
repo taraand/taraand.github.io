@@ -6,6 +6,11 @@ img {
 width: 100%;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .inverse {
     display: inline-block;
     background-color: black;
@@ -25,7 +30,6 @@ width: 100%;
     color:#80A19B ;
     padding: 1%;
     z-index: 6;
-    margin-top: 5%;
 
 }
 

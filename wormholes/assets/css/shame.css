@@ -35,6 +35,23 @@ a {
     cursor: pointer;
 }
 
+.inverse2 {
+    display: inline-block;
+    background-color: black;
+    border-radius: 9px/8px;
+    border-width: 10px;
+    color:#D37C5F ;
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    z-index: 6;
+}
+
+.inverse2:hover {
+    background-color:#D37C5F ;
+    color: white;
+    cursor: pointer;
+}
 
 h2 {
     position: relative;
