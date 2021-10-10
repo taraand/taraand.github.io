@@ -1,0 +1,53 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+body {
+	font-size: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+	padding: 20px;
+}
+
+.circles {
+	display: flex;
+	flex-wrap: wrap;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	pointer-events: none;
+}
+
+.circle {
+	width: 33.33vw;
+	height:50vh;
+	border-radius: 100%;
+}
+
+.circle:hover {
+	background-color: black;
+}
+
+.circle.fill {
+background-color: white;
+}
+
+.circle.fill:hover {
+	background-color: transparent;
+}
+
+.bubble {
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
