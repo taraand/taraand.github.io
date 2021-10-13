@@ -1,0 +1,19 @@
+body {
+	font-family: inherit;
+
+}
+
+@font-face {
+	font-family:'grandheavy';
+	src: url(fonts/Agrandir-GrandHeavy.ttf);
+}
+
+@font-face {
+	font-family:'grandlight';
+	src: url(fonts/Agrandir-GrandLight.otf);
+}
+
+@font-face {
+	font-family:'variable';
+	src: url(fonts/Agrandir-Variable.ttf);
+}
