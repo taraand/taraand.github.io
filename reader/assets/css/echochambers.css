@@ -87,7 +87,7 @@ margin-top: 3%;
 }
 
 .smallcolumn {
-border: 1px solid yellow;
+border: 1px solid transparent;
 border-radius: 22px/20px;
 width: 12%;
 }
