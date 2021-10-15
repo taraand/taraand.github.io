@@ -10,6 +10,7 @@ width: 100%;
 height: 10vh;
 background-color: white;
 margin-top: -2%;
+z-index: 100;
 }
 
 p {
@@ -21,9 +22,6 @@ p {
 	color: white;
 }
 
-.firstparagraph {
-	text-indent: -10%;
-}
 
 .nav {
 flex-wrap: wrap;
@@ -74,12 +72,7 @@ border-radius: 22px/20px;
 background-image: url(aeco.jpg);
 background-size: cover;
 background-position: 0px -150px;
--webkit-filter: blur(2px);
-}
-
-.imagecontainer:hover {
--webkit-filter: blur(0);
-transition: 0.5s;
+-webkit-filter: blur(5px);
 }
 
 .container {
@@ -115,59 +108,68 @@ flex-wrap: wrap;
 width: 100%;
 height: 16vw;
 font-size: 4.5vw;
-border: 1px black solid;
-background-color: white;
+border: 3px white solid;
+background-color: transparent;
+color: white;
 border-radius: 22px/20px;
 padding-top: 5%;
 padding-left: 5%;
 padding-bottom: 2%;
 font-family: 'grandheavy';
 margin-bottom: 8%;
+-webkit-filter: blur(1.5px);
 
 }
 
+.title:hover {
+	-webkit-filter: blur(0px);
+	transition: 1s;
+	}
+
 .row1 {
 flex-wrap: wrap;
-border: 1px black solid;
-background-color: white;
+border: 3px white solid;
+color: white;
+background-color: transparent;
 border-radius: 22px/20px;
 width: 42%;
 height: 16vw;
 margin-right: 8%;
 padding: 3%;
+-webkit-filter: blur(1.5px);
 
 }
 
+.row1:hover {
+	-webkit-filter: blur(0px);
+	transition: 1s;
+	}
+
 .row2{
 flex-wrap: wrap;
-border: 1px black solid;
-background-color: white;
+border: 3px white solid;
+color: white;
+background-color: transparent;
 border-radius: 22px/20px;
 width: 50%;
 height: 16vw;
 padding: 3%;
+-webkit-filter: blur(1.5px);
 
 }
 
-.row3 {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin-top: 2%;
-margin-bottom: 2%;
-flex-wrap: wrap;
-width: 100%;
-border-radius: 14px/12px;
-height: 5vh;
-font-size: 2vw;
-font-family: 'telegrafregular';
-}
+.row2:hover {
+	-webkit-filter: blur(0px);
+	transition: 1s;
+	}
 
 .row4 {
 flex-wrap: wrap;
 border-radius: 22px/20px;
-padding-left: 3%;
-padding-right: 3%;
+padding-left: 2%;
+padding-right: 2%;
+padding-bottom: 20%;
+margin-top: 10%;
 
 }
 
@@ -183,7 +185,17 @@ font-size: 2.025vw;
 
 h3{
 font-family: 'telegrafultrabold';
-font-size: 2.3vw;
+font-size: 2.2vw;
+}
+
+h4 {
+font-family: 'grandheavy';
+font-size: 4.5vw;
+
+}
+
+h5 {
+font-family: 'grandlight';
 }
 
 
@@ -199,16 +211,53 @@ border-radius: 50%;
 border: 1px solid black;
 }
 
+.text {
+z-index: 5;
+}
 
 .quote {
-border: 1px solid black;
-background-color: white;
+border: 3px solid white;
+-webkit-filter: blur(1.5px);
+color: white;
 font-size: 50px;
 font-family: 'telegrafultrabold';
 padding: 5%;
 border-radius: 22px/20px;
 margin-bottom: 8%;
+z-index: -1;
 }
+
+.quote:hover {
+-webkit-filter: blur(0px);
+transition: 1s;
+}
+
+
+
+
+
+
+
+@font-face {
+	font-family:'grandheavy';
+	src: url(fonts/Agrandir-GrandHeavy.ttf);
+}
+
+@font-face {
+	font-family:'grandlight';
+	src: url(fonts/Agrandir-GrandLight.otf);
+}
+
+@font-face {
+	font-family:'variable';
+	src: url(fonts/Agrandir-Variable.ttf);
+}
+
+@font-face {
+	font-family: 'tightthin';
+	src: url(fonts/Agrandir-TightThin.otf);
+}
+
 
 
 

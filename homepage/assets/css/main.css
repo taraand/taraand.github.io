@@ -1,6 +1,5 @@
 body {
-	background: rgb(255,147,0);
-	background: radial-gradient(circle, rgba(255,147,0,0.9402135854341737) 17%, rgba(254,95,43,0.9458158263305322) 87%);
+	background-color: #9F07B2;
 }
 
 @font-face {
@@ -35,7 +34,7 @@ font-size: 120px;
 text-align: center;
 font-family: 'kilo';
 padding-top: 2%;
-color: #9F07B2;
+color: #5a0065;
 }
 
 .row.wormholes img {
