@@ -1,0 +1,304 @@
+body {
+	font-family: inherit;
+
+}
+
+.header {
+position: fixed;
+display: flex;
+width: 100%;
+height: 10vh;
+background-color: white;
+margin-top: -2%;
+z-index: 100;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'telegrafregular';
+	line-height: 110%;
+	margin-bottom: 8%;
+	text-align: justify;
+	color: white;
+}
+
+
+.nav {
+flex-wrap: wrap;
+width: 5vh;
+height: 5vh;
+margin: 2%;
+background-color: black;
+border-radius: 50%;
+}
+
+.bar {
+flex-wrap: wrap;
+width: 92%;
+height: 5vh;
+margin-top: 2%;
+margin-right: 2%;
+border: 1px black solid;
+border-radius: 14px/12px;
+font-family: 'telegrafregular';
+padding-left: 1.5%;
+padding-top: 0.5%;
+font-size: 150%;
+overflow: scroll;
+}
+
+.content {
+display: flex;
+flex-direction: column;
+border-radius: 22px/20px;
+width: 96%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+}
+
+.imagecontainer {
+position: fixed;
+z-index: -1;
+flex-wrap: wrap;
+width: 96%;
+height: 80vh;
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+border-radius: 22px/20px;
+background-image: url(newsfeed.jpg);
+background-size: cover;
+background-position: 0px -150px;
+-webkit-filter: blur(5px);
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+border-radius: 22px/20px;
+width: 50%;
+height: 120vh;
+margin-bottom: 10%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50%;
+
+}
+
+.smallcolumn {
+border: 1px solid transparent;
+border-radius: 22px/20px;
+width: 12%;
+}
+
+.largecolumn {
+display: flex;
+flex-wrap: wrap;
+border-radius: 22px/20px;
+width: 76%;
+height: 1000vh;
+align-content: flex-start;
+}
+
+.title {
+flex-wrap: wrap;
+width: 100%;
+height: 16vw;
+font-size: 4.5vw;
+border: 3px white solid;
+background-color: transparent;
+color: white;
+border-radius: 22px/20px;
+padding-top: 5%;
+padding-left: 5%;
+padding-bottom: 2%;
+font-family: 'grandheavy';
+margin-bottom: 8%;
+-webkit-filter: blur(1.5px);
+
+}
+
+.title:hover {
+	-webkit-filter: blur(0px);
+	transition: 1s;
+	}
+
+.row1 {
+flex-wrap: wrap;
+border: 3px white solid;
+color: white;
+background-color: transparent;
+border-radius: 22px/20px;
+width: 42%;
+height: 16vw;
+margin-right: 8%;
+padding: 3%;
+-webkit-filter: blur(1.5px);
+
+}
+
+.row1:hover {
+	-webkit-filter: blur(0px);
+	transition: 1s;
+	}
+
+.row2{
+flex-wrap: wrap;
+border: 3px white solid;
+color: white;
+background-color: transparent;
+border-radius: 22px/20px;
+width: 50%;
+height: 16vw;
+padding: 3%;
+-webkit-filter: blur(1.5px);
+
+}
+
+.row2:hover {
+	-webkit-filter: blur(0px);
+	transition: 1s;
+	}
+
+.row4 {
+flex-wrap: wrap;
+border-radius: 22px/20px;
+padding-left: 2%;
+padding-right: 2%;
+padding-bottom: 20%;
+margin-top: 10%;
+
+}
+
+h1 {
+font-family: 'telegrafregular';
+font-size: 0.75vw;
+}
+
+h2{
+font-family: 'telegrafregular';
+font-size: 2.025vw;
+}
+
+h3{
+font-family: 'telegrafultrabold';
+font-size: 2.2vw;
+}
+
+h4 {
+font-family: 'grandheavy';
+font-size: 4.5vw;
+
+}
+
+h5 {
+font-family: 'grandlight';
+}
+
+
+.circle {
+flex-wrap: wrap;
+width: 5vh;
+height: 5vh;
+border: 1px solid transparent;
+border-radius: 50%;
+}
+
+.circle:hover {
+border: 1px solid black;
+}
+
+.text {
+z-index: 5;
+}
+
+.quote {
+border: 3px solid white;
+-webkit-filter: blur(1.5px);
+color: white;
+font-size: 50px;
+font-family: 'telegrafultrabold';
+padding: 5%;
+border-radius: 22px/20px;
+margin-bottom: 8%;
+z-index: -1;
+}
+
+.quote:hover {
+-webkit-filter: blur(0px);
+transition: 1s;
+}
+
+
+
+
+
+
+
+@font-face {
+	font-family:'grandheavy';
+	src: url(fonts/Agrandir-GrandHeavy.ttf);
+}
+
+@font-face {
+	font-family:'grandlight';
+	src: url(fonts/Agrandir-GrandLight.otf);
+}
+
+@font-face {
+	font-family:'variable';
+	src: url(fonts/Agrandir-Variable.ttf);
+}
+
+@font-face {
+	font-family: 'tightthin';
+	src: url(fonts/Agrandir-TightThin.otf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family:'grandheavy';
+	src: url(fonts/Agrandir-GrandHeavy.ttf);
+}
+
+@font-face {
+	font-family:'grandlight';
+	src: url(fonts/Agrandir-GrandLight.otf);
+}
+
+@font-face {
+	font-family:'variable';
+	src: url(fonts/Agrandir-Variable.ttf);
+}
+
+@font-face {
+	font-family: 'telegrafregular';
+	src: url(fonts/Telegraf-Regular.otf);
+}
+
+@font-face {
+	font-family: 'telegrafultrabold';
+	src: url(fonts/Telegraf-UltraBold.otf);
+}
+
