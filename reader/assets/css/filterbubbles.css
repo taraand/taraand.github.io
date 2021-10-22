@@ -233,6 +233,12 @@ z-index: -1;
 transition: 1s;
 }
 
+.subtitle {
+font-family: 'telegrafultrabold';
+font-size: 3vw;
+margin-bottom: 5%;
+color: white;
+}
 
 
 
