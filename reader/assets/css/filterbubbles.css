@@ -72,7 +72,7 @@ border-radius: 22px/20px;
 background-image: url(filterbubbles.jpg);
 background-size: cover;
 background-position: 0px -100px;
--webkit-filter: blur(5px);
+-webkit-filter: blur(3px);
 }
 
 .container {
@@ -106,7 +106,7 @@ align-content: flex-start;
 .title {
 flex-wrap: wrap;
 width: 100%;
-height: 16vw;
+height: 21vw;
 font-size: 4.5vw;
 border: 3px white solid;
 background-color: transparent;
@@ -155,6 +155,7 @@ width: 50%;
 height: 16vw;
 padding: 3%;
 -webkit-filter: blur(1.5px);
+overflow: scroll;
 
 }
 
@@ -185,7 +186,7 @@ font-size: 2.025vw;
 
 h3{
 font-family: 'telegrafultrabold';
-font-size: 2.2vw;
+font-size: 2.1vw;
 }
 
 h4 {
@@ -219,7 +220,7 @@ z-index: 5;
 border: 3px solid white;
 -webkit-filter: blur(1.5px);
 color: white;
-font-size: 50px;
+font-size: 49px;
 font-family: 'telegrafultrabold';
 padding: 5%;
 border-radius: 22px/20px;

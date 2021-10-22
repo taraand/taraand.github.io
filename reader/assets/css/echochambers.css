@@ -72,7 +72,7 @@ border-radius: 22px/20px;
 background-image: url(aeco.jpg);
 background-size: cover;
 background-position: 0px -150px;
--webkit-filter: blur(5px);
+-webkit-filter: blur(3px);
 }
 
 .container {

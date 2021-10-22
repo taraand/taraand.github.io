@@ -1,0 +1,92 @@
+body {
+	background-color: #110f0f;
+	font-family: inherit;
+
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+@font-face {
+	font-family:'grandheavy';
+	src: url(fonts/Agrandir-GrandHeavy.ttf);
+}
+
+@font-face {
+	font-family:'grandlight';
+	src: url(fonts/Agrandir-GrandLight.otf);
+}
+
+@font-face {
+	font-family:'variable';
+	src: url(fonts/Agrandir-Variable.ttf);
+}
+
+.circle {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 670px;
+	height: 670px;
+	margin-left:auto;
+	margin-right: auto;
+	border-radius: 50%;
+	background-color: #eef0f0;
+}
+
+.titles {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.one {
+	width: auto;
+	height: 33.33vh;
+	flex-wrap: wrap;
+	font-family: 'grandheavy';
+	color: white;
+	font-size: 300px;
+	filter: invert(100%);
+	mix-blend-mode: difference;
+	align-items: baseline;
+}
+
+.one:hover {
+	filter: invert(0%);
+	cursor: pointer;
+}
+
+.two {
+	width: auto;
+	height: 33.33vh;
+	flex-wrap: wrap;
+	font-family: 'grandlight';
+	color: white;
+	font-size: 300px;
+	filter: invert(100%);
+	mix-blend-mode: difference;
+}
+
+.two:hover {
+	filter: invert(0%);
+	cursor: pointer;
+}
+
+
+.three {
+	width: auto;
+	height: 33.33vh;
+	flex-wrap: wrap;
+	font-family: 'variable';
+	color: white;
+	font-size: 300px;
+	filter: invert(100%);
+	mix-blend-mode: difference;
+}
+
+.three:hover {
+	filter: invert(0%);
+	cursor: pointer;
+}
