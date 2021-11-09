@@ -1,8 +1,13 @@
-$(document).ready(function () {
-    console.log("ready");
+$(document).ready(function() {
+
+  // Add jQuery here
   
-    $(".button").click(function () {
-      $(".menu").toggleClass("open");
-    });
-  });
+  // On .nav click, toggleClass ON or OFF showme.
   
+$('.nav').click(function() {
+  $('.menu').toggleClass('showme');
+});
+  
+
+});
+
